@@ -81,6 +81,8 @@ class Connection {
                 // Use Connection\Stream when protocol prefix is defined.
                 try {
                     $this->_node = empty($matches[2]) ? new Connection\Socket($options) : new Connection\Stream($options);
+                } catch (ErrorException $e) {
+                    continue;
                 } catch (Exception $e) {
                     continue;
                 }
@@ -89,6 +91,8 @@ class Connection {
                 $className = isset($options['class']) ? $options['class'] : 'Cassandra\Connection\Socket';
                 try {
                     $this->_node = new $className($options);
+                } catch (ErrorException $e) {
+                    continue;
                 } catch (Exception $e) {
                     continue;
                 }
