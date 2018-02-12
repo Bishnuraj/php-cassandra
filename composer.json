@@ -1,5 +1,5 @@
 {
-	"name": "duoshuo/php-cassandra",
+	"name": "bishnuraj/php-cassandra",
 	"description": "Cassandra client library for PHP, which support Protocol v3 and asynchronous request",
 	"minimum-stability": "stable",
 	"keywords" : [
@@ -12,8 +12,8 @@
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Shen Zhenyu",
-			"email": "zhenyupku@gmail.com"
+			"name": "Bishnuraj Reddy",
+			"email": "reddybishnuraj@gmail.com"
 		},
 		{
 			"name": "Evseev Nikolay",
