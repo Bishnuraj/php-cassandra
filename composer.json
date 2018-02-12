@@ -1,6 +1,6 @@
 {
 	"name": "bishnuraj/php-cassandra",
-	"description": "Cassandra client library for PHP, which support Protocol v3 and asynchronous request",
+	"description": "Cassandra2 client driver library for PHP5",
 	"minimum-stability": "stable",
 	"keywords" : [
 		"cassandra",
@@ -14,10 +14,6 @@
 		{
 			"name": "Bishnuraj Reddy",
 			"email": "reddybishnuraj@gmail.com"
-		},
-		{
-			"name": "Evseev Nikolay",
-			"email": "evseevnn@gmail.com"
 		}
 	],
 	"require": {
